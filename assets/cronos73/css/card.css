@@ -1,0 +1,13 @@
+.card {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.9);
+    margin: 10px;
+    /* width: 600px; */
+    width: 25rem;
+    height: 35rem; /*550px;*/
+  }
+
+  .card-img-top {
+    padding: 5px;
+    width: 100%;
+    height: 250px;
+  }

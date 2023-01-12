@@ -7,106 +7,8 @@
   <title>Tiendita virtual</title>
   <link href="<?php echo base_url() ?>/assets/bootstrap_5.3.0/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="<?php echo base_url() ?>/assets/font_awesome_4.7.0/css/font-awesome.min.css">
-  <style>
-    span.red {
-      position: absolute;
-      font-size: 10px;
-      background: red;
-      border-radius: 1.8em;
-      -moz-border-radius: 1.8em;
-      -webkit-border-radius: 1.8em;
-      color: #ffffff;
-      display: inline-block;
-      font-weight: bold;
-      /* line-height: 1.6em; */
-      line-height: 1.6em;
-      margin-right: 0px;
-      text-align: center;
-      width: 1.6em;
-      /* 1.6em; */
-    }
-
-    @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
-    size: 12px;
-} */
-
-.card {
-    margin: 20px;
-    border-radius: 6px;
-    background: #fff;
-    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
-    transition: all 400ms ease-out;
-    cursor: default;
-    border: solid;
-    border-color: darkcyan;
-    height: 420px;
-    width: 100%;
-}
-
-.cards {
-    padding: 10px;
-}
-
-.card-title {
-    width: 100%;
-    max-width: 400px;
-    margin: 0%;
-    padding: 20px;
-    margin-top: 20px;
-    text-align: left;/*center;*/
-    color: blueviolet;/* #000000;*/
-    /* line-height: 1.0;  */
-}
-
-.card-img-top {
-    width: 100%;
-    height: 200px;
-}
-
-.card:hover {
-    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
-    transform: translateY(-3%);
-}
-
-.card.contenido p {
-    line-height: 1.0;
-    color: #6a6a6a;
-    width: 100%;
-    height: 210px;
-}
-
-.card-body a {
-    text-decoration: none;
-    display: inline-block;
-    padding: 10px;
-    margin-top: 10px;
-    color: #000520;
-    border: 2px solid #f0ad1c;
-    border-radius: 4px;
-    transition: all 400ms ease;
-    text-align: center;
-}
-
-.card-body a {
-    background: #f0ad1c;
-    color: #ffd;
-    text-align: center;
-}
-
-.ocultar {
-    display: none;
-}
-
-
-
-
-  </style>
+  <link href="<?php echo base_url() ?>/assets/cronos73/css/card.css" rel="stylesheet">
+  <link href="<?php echo base_url() ?>/assets/cronos73/css/carrito.css" rel="stylesheet">
 
 </head>
 
@@ -160,4 +62,4 @@
       </div>
     </div>
   </nav>
-  <div style="margin-top: 80px;margin-left:10px;margin-right:10px;margin-bottom:10px">
+  <div style="margin-top: 80px;margin-left:40px;margin-right: 40px;margin-bottom:60px">

@@ -24,16 +24,16 @@ class Database extends Config
     /**
      * The default database connection.
      */
-    public array $default = [
+    public $default = [
         'DSN'      => '',
-        'hostname' => 'localhost',
-        'username' => '',
-        'password' => '',
-        'database' => '',
+        'hostname' => 'tienditavirtual.com.mx',
+        'username' => 'cronos70_admin',
+        'password' => 'admin1973',
+        'database' => 'cronos70_carritoDB',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,
-        'DBDebug'  => true,
+        'DBDebug'  => (ENVIRONMENT !== 'production'),
         'charset'  => 'utf8',
         'DBCollat' => 'utf8_general_ci',
         'swapPre'  => '',

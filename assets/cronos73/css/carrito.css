@@ -1,0 +1,40 @@
+span.red {
+    position: absolute;
+    font-size: 10px;
+    background: red;
+    border-radius: 1.8em;
+    -moz-border-radius: 1.8em;
+    -webkit-border-radius: 1.8em;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    /* line-height: 1.6em; */
+    line-height: 1.6em;
+    margin-right: 0px;
+    text-align: center;
+    width: 1.6em;
+    /* 1.6em; */
+  }
+
+  @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+  /* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  size: 12px;
+} */
+
+.btn-carrito{
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-decoration: none;
+  /* margin: 4px 4px; */
+  margin-top: 20px;
+  margin-right: -60px;
+  cursor: pointer;
+  border-radius: 50%;
+  font-size:25px;  
+}

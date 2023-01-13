@@ -27,14 +27,28 @@ span.red {
 } */
 
 .btn-carrito{
+  position: relative;
   border: none;
   color: white;
   padding: 5px 15px;
   text-decoration: none;
   /* margin: 4px 4px; */
-  margin-top: 20px;
+  margin-top: 00px;
   margin-right: -60px;
   cursor: pointer;
   border-radius: 50%;
   font-size:25px;  
+  bottom: 80px;
+  right: 20px;
+}
+
+.btn-cantidad{
+  border: none;
+  color: white;
+  background-color: green;
+  text-decoration: none;
+  /* margin: 4px 4px; */
+  cursor:auto;
+  border-radius: 50%;
+  font-size:15px;  
 }

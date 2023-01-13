@@ -44,8 +44,8 @@ span.red {
 
 .btn-cantidad{
   border: none;
-  color: white;
-  background-color: green;
+  color: green;
+  background-color: white;
   text-decoration: none;
   /* margin: 4px 4px; */
   cursor:auto;

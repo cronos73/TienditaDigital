@@ -58,7 +58,7 @@ $familiaProducto = "Limpieza";
                     </td>
                     <td width:"50%">
                         <button class="btn-cantidad" onclick="quitarCantidad(<?php echo $idProducto ?>)">
-                            <i class="fa fa-minus" aria-hidden="true"></i>
+                        <i class="fa fa-minus-circle fa-2x fa-lg" aria-hidden="true"></i>
                         </button>
                         <b> 
                         <span id="cantidadProducto_<?php echo $idProducto ?>">
@@ -66,7 +66,7 @@ $familiaProducto = "Limpieza";
                         </span>
                         </b>
                         <button class="btn-cantidad" onclick="agregarCantidad(<?php echo $idProducto ?>)">
-                            <i class="fa fa-plus" aria-hidden="true"></i>
+                        <i class="fa fa-plus-circle fa-2x fa-lg" aria-hidden="true"></i>
                         </button>
                         <span class="unidadVentaProducto_<?php echo $idProducto ?>">
                             <?php echo $unidadVentaProducto ?>

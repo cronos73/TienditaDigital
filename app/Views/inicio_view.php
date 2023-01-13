@@ -9,6 +9,12 @@ $cantidadProducto = "1";
 $familiaProducto = "Limpieza";
 
 ?>
+<div class="alert alert-success  alert-dismissible fade show" role="alert">
+    <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+    <strong>Recuerda!</strong> Para poder realizar pedidos debe ser registrado en el sistema. Registrate en el menú de opciones y le daremos mejor servicio.
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+
 
 <div class="row">
     <div id="card-1" class="card mb-3">
@@ -58,15 +64,15 @@ $familiaProducto = "Limpieza";
                     </td>
                     <td width:"50%">
                         <button class="btn-cantidad" onclick="quitarCantidad(<?php echo $idProducto ?>)">
-                        <i class="fa fa-minus-circle fa-2x fa-lg" aria-hidden="true"></i>
+                            <i class="fa fa-minus-circle fa-2x fa-lg" aria-hidden="true"></i>
                         </button>
-                        <b> 
-                        <span id="cantidadProducto_<?php echo $idProducto ?>">
-                           <?php echo $cantidadProducto ?> 
-                        </span>
+                        <b>
+                            <span id="cantidadProducto_<?php echo $idProducto ?>">
+                                <?php echo $cantidadProducto ?>
+                            </span>
                         </b>
                         <button class="btn-cantidad" onclick="agregarCantidad(<?php echo $idProducto ?>)">
-                        <i class="fa fa-plus-circle fa-2x fa-lg" aria-hidden="true"></i>
+                            <i class="fa fa-plus-circle fa-2x fa-lg" aria-hidden="true"></i>
                         </button>
                         <span class="unidadVentaProducto_<?php echo $idProducto ?>">
                             <?php echo $unidadVentaProducto ?>

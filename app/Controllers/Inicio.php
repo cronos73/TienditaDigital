@@ -3,12 +3,14 @@
 namespace App\Controllers;
 use CodeIgniter\Controller;
 use App\Models\ProductoVenta;
+use App\Models\ConfiguracionSistema;
 use CodeIgniter\HTTP\Request;
 class Inicio extends BaseController
 {
     public function index()
     {
         $productos = new ProductoVenta();
+        $configuraciones = new ConfiguracionSistema();
 
         //return view('templates/header');
         //$productos = new ProductoVenta();
@@ -18,6 +20,8 @@ class Inicio extends BaseController
         //$productos = new ProductoVenta();
         //$datos['productos'] = $productos->orderBy('id', 'ASC')->findAll();
         //$datos['productos'] = $productos->select('id,nombreProducto,descripcionProducto,precioProducto,existenciaProducto,unidadVenta')->findAll();
+        $atributo = 'AlertaLogin';
+        $datos['alertLogin'] = $configuraciones->select('Valor')->where(['Atributo' => $atributo])->first();;
         $datos['productos'] = $productos->select('*')->
         join('familiaproducto as fa', 'fa.id = producto.idFamilia')->findAll();
         $datos['header'] = view('templates/header');

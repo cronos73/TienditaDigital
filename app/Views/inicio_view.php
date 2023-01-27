@@ -14,7 +14,8 @@ $familiaProducto = "Limpieza";
 ?>
 <div class="alert alert-warning   alert-dismissible fade show" role="alert">
     <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
-    <strong>Recuerda!</strong> Para poder realizar pedidos debe ser registrado en el sistema. Registrate en el menú de opciones y le daremos mejor servicio.
+    <!-- <strong>Recuerda!</strong> Para poder realizar pedidos debe ser registrado en el sistema. Registrate en el menú de opciones y le daremos mejor servicio. -->
+    <?php echo $alertLogin['Valor'] ?>
     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
 </div>
 
@@ -22,7 +23,7 @@ $familiaProducto = "Limpieza";
 <div class="row">
     <?php foreach ($productos as $producto) : ?>
         <div id="card-1" class="card mb-3">
-            <img class="imagenProduto" src="data:image/jpeg;base64,<?php echo base64_encode($producto['foto']) ?> " />
+            <img class="imagenProduto" src="data:image/jpeg;base64,<?php echo base64_encode($producto['foto']) ?> "/>
 
 
             <div class="card-body">
